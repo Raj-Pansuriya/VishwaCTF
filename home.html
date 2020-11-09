@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Code+Pro&family=Varela+Round&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a9039ce76e.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext">
+	<link rel=stylesheet rel=stylesheet href=css/font-awesome.min.css>
+	<title>VishwaCTF</title>
+
+
+<style>
+	hr{
+		width:50%;
+		margin: auto;
+		color: gray;
+	}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">
+				VishwaCTF
+			</a>
+			<hr color="gray">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#base-navbars" aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="base-navbars">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#FAQ">FAQ</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#sponsors">Sponsors</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+
+				<hr style="width: 100%;" class="d-sm-flex d-md-flex d-lg-none">
+
+				<ul class="navbar-nav ml-md-auto d-block d-sm-flex d-md-flex">
+					<li class="nav-item">
+						<a class="nav-link" href="/register">
+							<span class="d-block" data-toggle="tooltip" data-placement="bottom" title="Register">
+								<i class="fas fa-user-plus d-none d-md-block d-lg-none"></i>
+							</span>
+							<span class="d-sm-block d-md-none d-lg-block">
+								<i class="fas fa-user-plus pr-1"></i>Register
+							</span>
+						</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="/login">
+						<span class="d-block" data-toggle="tooltip" data-placement="bottom" title="Login">
+							<i class="fas fa-sign-in-alt d-none d-md-block d-lg-none"></i>
+						</span>
+						<span class="d-sm-block d-md-none d-lg-block">
+							<i class="fas fa-sign-in-alt pr-1"></i>Login
+						</span>
+					</a>
+				</li>
+			
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div style="padding:15px 15px 15px;font-size:50px;margin-top:30px;margin: 0; background-color: #171A1F;color: white; text-align: center;">
+		<br></br>
+		<div>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color:	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>V</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>i</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>s</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>h</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>w</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>a</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>-</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>C</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>T</b></h1>
+			<h1 onMouseOver="this.style.color='#00ff00'" style="color: 	#8A2BE2; font-family: 'Share Tech Mono', monospace; font-size: 100px; display: inline;"><b>F</b></h1>
+		</div>
+		<hr color="gray">
+		<br><br>
+		<div style="color: white; font-family: 'Source Code Pro', monospace; font-size: 40px;">
+		<p>Yaha pe hum CTF ke baare me thoda likhenge : <br>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores exercitationem dignissimos accusamus, error earum ab. Totam dolores corrupti quod a modi? Vero nesciunt, incidunt laboriosam quas provident ut quod?</p>
+			<br>
+			<p>The CTF will be live from ---- to ----</p>
+		</div>
+		<br><hr color="gray"></br>
+
+		<div style="font-size: medium;" id="about">
+			<br><br><br>
+			<h1>About</h1>
+			<p>Yaha hum Cyber cell VIIT and uske vision and mission ke baare me kikhenge : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque earum mollitia numquam rerum quisquam! Enim tempora sequi repellendus eaque consequuntur dolore sint facilis odit illo ipsam, inventore quas, unde cum!</p>
+		</div>
+		<br><hr color="gray">
+	
+		<div style="font-size: medium;" id="FAQ">
+			<br><br><br>
+			<h1>FAQ</h1>
+			<h4>What is CTF?</h4>
+			<p>CTF stands for "Capture the Flag". CTFs are a type of computer security competition (but HSCTF extends beyond computer security to include other areas of computer science). Certain pieces of information, called "flags", are placed on servers, encrypted, hidden, or otherwise stored somewhere difficult to access. During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits this flag to a scoring page, they will get points.</p>
+			<br>
+			<h4>Who can compete?</h4>
+			<p>Anyone and Everyone!!!</p>
+			<br>
+			<h4>Where?</h4>
+			<p>VishwaCTF will take place entirely online at this website. Once the competition starts, teams will be able to log in and view the challenges using the team name and password provided at registration, which will be open throughout the competition. Participants may find it useful to have the ability to install software and have unfiltered internet access.</p>
+			<br>
+			<h4>Who is running VishwaCTF?</h4>
+			<p>VishwaCTF is organized by students at Vishvakarma Institute of Information Technology in Pune as part of its Cyber Cell.</p>
+		</div>
+		<br><hr color="gray"></br>
+		<div style="font-size: medium;" id="sponsors">
+			<br><br><br>
+			<h1>SPONSORS</h1>
+			<br>
+			<div class=row>
+				<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="sponsor.svg" alt="sponsor"></i></a></p>
+			</div>
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="sponsor.svg" alt="sponsor"></i></a></p>
+			</div>
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="sponsor.svg" alt="sponsor"></i></a></p>
+			</div>
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="sponsor.svg" alt="sponsor"></i></a></p>
+			</div>
+
+			<br><hr color="gray"></br>
+			</div>
+
+			
+	
+		</div>
+		<br><hr><br>
+		<br>
+		<h1>Contact</h1><br>
+		
+		<div class=row id=contact>
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="insta.svg" alt="instagram"></a></p>
+			</div>
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="twitter.svg" alt="twitter"></a></p>
+			</div>
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="mail2.svg" alt="mail"></a></p>
+			</div>	
+			<div class="col-12 col-sm-3 with-hover-text">
+				<p><a href=# target=_blank><img src="discord.svg" alt="discord"></a></p>
+			</div>	
+</div>
+	</div>
+	<div class="jumbotron text-center" style="margin-bottom:0; background-color:#202020;color:white">
+		<p>Footer</p>
+		<h6>Join our community and ....kuch to bhi likhneka</h6>
+
+	</div>
+</body>
+</html>
